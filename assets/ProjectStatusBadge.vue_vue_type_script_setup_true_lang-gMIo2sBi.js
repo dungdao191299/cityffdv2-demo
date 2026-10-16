@@ -1,0 +1,2 @@
+import{X as o,G as s,aj as a,P as p}from"./index-D2SJwwNi.js";const i=o({__name:"ProjectStatusBadge",props:{status:{type:String,required:!0}},setup(n){const r={"in progress":"primary",archived:"secondary",completed:"success",important:"warning"};return(e,c)=>{const t=a;return p(),s(t,{square:"",color:r[e.$props.status],text:e.$props.status.toUpperCase()},null,8,["color","text"])}}});export{i as _};
+//# sourceMappingURL=ProjectStatusBadge.vue_vue_type_script_setup_true_lang-gMIo2sBi.js.map
