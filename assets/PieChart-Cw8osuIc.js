@@ -1,0 +1,2 @@
+import{P as o}from"./index-BewmpDJu.js";import{C as e,p as r,a as s,b as n,A as p,c as i}from"./Dashboard-CBgPSmEP.js";import{a1 as l,d as c,e as m,v as u}from"./index-C-kjNPKb.js";import"./useProjects-XzJqd4ir.js";import"./ProjectStatusBadge.vue_vue_type_script_setup_true_lang-Ctz2gBkD.js";const k=l({__name:"PieChart",props:{data:{},options:{}},setup(t){e.register(r,s,n,p,i);const a=t;return(d,f)=>(c(),m(u(o),{data:a.data,options:t.options},null,8,["data","options"]))}});export{k as default};
+//# sourceMappingURL=PieChart-Cw8osuIc.js.map
