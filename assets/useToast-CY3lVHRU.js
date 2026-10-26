@@ -1,0 +1,2 @@
+import{c,aH as l,ax as r,aI as a,aJ as u,aK as i}from"./index-DiMbK1Mr.js";const p=()=>{const e=r();return c(()=>{var o;return((o=l())==null?void 0:o._context)||(e==null?void 0:e.appContext)})},f=()=>{const e=p(),o=[],s=t=>{const n=i(t,e.value);return n&&o.push(n),n};return{init:t=>s(t),notify:s,close:t=>a(t),closeAll:(t=!1)=>u(t?void 0:e.value),closeAllCreatedInThisHook:()=>{o.forEach(t=>a(t))}}};export{f as u};
+//# sourceMappingURL=useToast-CY3lVHRU.js.map
