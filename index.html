@@ -11,6 +11,15 @@
     />
     <link rel="icon" type="image/png" href="/cityffdv2-demo/favicon.png" />
 
+    <script>
+      const redirectPath = sessionStorage.getItem('redirectPath')
+
+      if (redirectPath) {
+        sessionStorage.removeItem('redirectPath')
+        window.history.replaceState(null, '', redirectPath)
+      }
+    </script>
+
     <title>City FFD</title>
 
     <style>
