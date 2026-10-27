@@ -1,0 +1,2 @@
+import{c,aK as l,aA as r,aL as a,aM as u,aN as i}from"./index-BpW2MoLR.js";const p=()=>{const e=r();return c(()=>{var o;return((o=l())==null?void 0:o._context)||(e==null?void 0:e.appContext)})},v=()=>{const e=p(),o=[],s=t=>{const n=i(t,e.value);return n&&o.push(n),n};return{init:t=>s(t),notify:s,close:t=>a(t),closeAll:(t=!1)=>u(t?void 0:e.value),closeAllCreatedInThisHook:()=>{o.forEach(t=>a(t))}}};export{v as u};
+//# sourceMappingURL=useToast-JoVN__IC.js.map

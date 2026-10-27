@@ -1,0 +1,2 @@
+import{a9 as a,e as o,ar as s,d as p}from"./index-BpW2MoLR.js";const d=a({__name:"ProjectStatusBadge",props:{status:{type:String,required:!0}},setup(n){const r={"in progress":"primary",archived:"secondary",completed:"success",important:"warning"};return(e,c)=>{const t=s;return p(),o(t,{square:"",color:r[e.$props.status],text:e.$props.status.toUpperCase()},null,8,["color","text"])}}});export{d as _};
+//# sourceMappingURL=ProjectStatusBadge.vue_vue_type_script_setup_true_lang-xN6PQnYq.js.map
