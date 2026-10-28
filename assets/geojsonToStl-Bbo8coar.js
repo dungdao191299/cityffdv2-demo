@@ -5,4 +5,3 @@ import{e as q}from"./earcut-Drp1yMsm.js";const A=11102230246251565e-32,P=1342177
 ${t}${l}`}function gt(r,l,n,o,h=!1){const e=[h?"Building_stl	Building_osm	year	type	lat_center	lng_center":"Building_stl	Building_osm	year	type"],t=new Set,s=r.solidPrefix||"b";for(const u of r.solids){if(u.type!=="building"||t.has(u.featureIndex))continue;t.add(u.featureIndex);const p=`${s}${u.featureIndex}`,y=l.features[u.featureIndex]||{},i=y.properties||{},a=u.id!==void 0&&u.id!==null?u.id:u.featureIndex,f=n&&i[n]!==void 0?i[n]:"-",m=o&&i[o]!==void 0?i[o]:"-";let c=`${p}		${a}		${f}		${m}`;if(h){const x=X({features:[y]});c+=`		${x[1]}		${x[0]}`}e.push(c)}return e.join(`
 `)+`
 `}export{gt as a,dt as b,ht as c,mt as g,it as m,ft as o};
-//# sourceMappingURL=geojsonToStl-Bbo8coar.js.map

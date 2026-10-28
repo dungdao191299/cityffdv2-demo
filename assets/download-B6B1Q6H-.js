@@ -1,2 +1,1 @@
 function n(o,r,l="application/geo+json"){const a=URL.createObjectURL(new Blob(Array.isArray(o)?o:[o],{type:l})),e=document.createElement("a");e.href=a,e.download=r,document.body.append(e);try{e.click()}finally{e.remove(),setTimeout(()=>URL.revokeObjectURL(a),1e3)}}export{n as d};
-//# sourceMappingURL=download-B6B1Q6H-.js.map
