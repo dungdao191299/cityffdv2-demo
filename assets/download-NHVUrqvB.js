@@ -1,0 +1,1 @@
+function c(o,a,r="application/geo+json"){let l;Array.isArray(o)?l=o:l=[o];const n=new Blob(l,{type:r}),t=URL.createObjectURL(n),e=document.createElement("a");e.href=t,e.download=a,document.body.append(e);try{e.click()}finally{e.remove(),setTimeout(()=>URL.revokeObjectURL(t),1e3)}}export{c as d};
